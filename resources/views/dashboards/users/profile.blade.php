@@ -382,7 +382,8 @@
                         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                             <button type="submit" id="btn-save" name="btnsave" class="btn btn-primary" disabled>Submit</button>
                             <!-- <a  href="{{ URL::previous() }}"class="btn btn-danger">Cancel</a>-->
-                            <button class="btn btn-danger" id="btnCancel" data-dismiss="modal">Cancel</button>
+                            <!-- <button class="btn btn-danger" id="btnCancel" data-dismiss="modal">Cancel</button> -->
+                            <button class="btn btn-danger" id="btnCancel" data-bs-dismiss="modal">Cancel</button>
                             <!-- <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button> -->
                         </div>
                     </div>
@@ -654,7 +655,7 @@
                                 swal("Error deleting!", "Please try again", "error");
                             }
                         });
-                        
+
                     });
 
                 }
